@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="enter_new_quantity">Enter New Quantity</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="c">C</string>
+    <string name="_0">0</string>
+    <string name="buy">Buy</string>
+    <string name="quantity">quantity</string>
+    <string name="selected_product_name">Selected product name</string>
+    <string name="total_cost">total cost</string>
+    <string name="manager">Manager</string>
+    <string name="history">HISTORY</string>
+    <string name="restock">RESTOCK</string>
+    <string name="product">product</string>
+    <string name="price">price</string>
+    <string name="all_fields_are_required">All fields are required!!!</string>
+    <string name="thank_you_for_your_purchase">Thank You for your purchase</string>
+    <string name="no_enough_quantity_in_the_stock">No enough quantity in the stock!!</string>
+</resources>
