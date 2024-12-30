@@ -13,7 +13,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.result.ActivityResultLauncher;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -54,7 +53,6 @@ public class MainActivity extends AppCompatActivity implements ProductBaseAdapte
     TextView totalText;
 
     ProductManager serviceClass;
-    private ActivityResultLauncher<Intent> myLauncher;
     ListView productList;
     private String quantityString = "";
 

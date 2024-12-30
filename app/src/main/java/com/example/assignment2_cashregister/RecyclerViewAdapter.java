@@ -62,12 +62,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             productNameText = itemView.findViewById(R.id.productname_history);
             productQuantityText = itemView.findViewById(R.id.productquantity);
             productTotalText = itemView.findViewById(R.id.producttotalcost);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    listener.historySelected(getAdapterPosition());
-                }
-            });
+            itemView.setOnClickListener(v -> listener.historySelected(getAdapterPosition()));
         }
     }
 }

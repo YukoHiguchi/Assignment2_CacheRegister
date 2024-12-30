@@ -51,15 +51,10 @@ public class ProductBaseAdapter extends BaseAdapter {
 
         Product product = list.get(position);
         nameText.setText(product.getName());
-        priceText.setText(Double.toString(product.getPrice()));
-        quantityText.setText(Integer.toString(product.getQuantity()));
+        priceText.setText(String.format("%s", product.getPrice()));
+        quantityText.setText(String.format("%d", product.getQuantity()));
 
-        nameText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                productListener.nameClicked(position, product.getName());
-            }
-        });
+        nameText.setOnClickListener(view -> productListener.nameClicked(position, product.getName()));
 
         return convertView;
     }

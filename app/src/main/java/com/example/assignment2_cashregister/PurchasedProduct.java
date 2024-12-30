@@ -4,12 +4,12 @@ import java.io.Serializable;
 import java.util.Date;
 
 // PurchasedProduct class
-// This class holds user's perchased item information
+// This class holds user's purchased item information
 public class PurchasedProduct implements Serializable {
-    private String name;
-    private int quantity;
-    private double totalPrice;
-    private Date timestamp;
+    private final String name;
+    private final int quantity;
+    private final double totalPrice;
+    private final Date timestamp;
 
 
     public PurchasedProduct(String name, int quantity, double totalPrice) {
